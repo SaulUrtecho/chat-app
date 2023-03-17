@@ -1,0 +1,53 @@
+name: firebase_chat
+description: A new Flutter project.
+
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  firebase_core: ^2.5.0
+  flutter:
+    sdk: flutter
+  #service locator
+  get_it: ^7.2.0
+  #state management
+  flutter_bloc: ^8.1.2
+  equatable: ^2.0.5
+
+  percent_indicator: ^2.1.9+1
+
+  flutter_svg: ^2.0.1
+  cached_network_image: ^3.1.0
+
+  intl: ^0.17.0
+
+  #firebase
+  firebase_auth: ^4.2.6
+  cloud_firestore: ^4.3.2
+  firebase_storage: ^11.0.11
+
+  google_sign_in: ^5.4.4
+  lottie: ^2.2.0
+  image_picker: ^0.8.4
+  fluttertoast: ^8.0.8
+  #message shape bubble
+  bubble: ^1.2.1
+  cupertino_icons: ^1.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/.
